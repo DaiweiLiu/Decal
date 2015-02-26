@@ -1,0 +1,9 @@
+<h1>Person Page</h1>
+
+<% if @p.blank? %>
+	<p>No person created!</p>
+<% else %>
+	<h3>Introduction: <%= @intro %></h3>
+	<h3>Year of Birth: <%= @birth_year %></h3>
+	<h3>Nickname: <%= @nickname %></h3>
+<% end %>
